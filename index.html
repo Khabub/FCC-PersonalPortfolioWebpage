@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <a href="#welcome-section">About</a>
+        <a href="#projects">Work</a>
+        <a href="#title-links">Contact</a>
+    </nav>
+
+    <section id="welcome-section">
+        <h1>Hey I am Mimic</h1>
+        <h2>a web developer</h2>
+    </section>
+
+    <section id="projects">
+        <div class="title">
+            <h3>These are some of my projects</h3>
+            <hr>
+        </div>
+
+        <div class="tile-projects">
+            <a href="#">
+                <div class=project-tile>
+                    <img src="./tribute.jpg" alt="tribute">
+                    <p class="tile-title"><span class="spanLink">&lsaquo; </span>Tribute Page<span class="spanLink"> /&rsaquo;</span></p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class=project-tile>
+                    <img src="./random-quote-machine.png" alt="random quote machine"> 
+                    <p class="tile-title"><span class="spanLink">&lsaquo; </span>Random Quote Machine<span class="spanLink"> /&rsaquo;</span></p>                        
+                </div>
+            </a>
+
+            <a href="#">
+                <div class=project-tile>
+                    <img src="./calc.png" alt="calc"> 
+                    <p class="tile-title"><span class="spanLink">&lsaquo; </span>JavaScript Calculator<span class="spanLink"> /&rsaquo;</span></p>                        
+                </div>
+            </a>
+
+            <a href="#">
+                <div class=project-tile>
+                    <img src="./map.jpg" alt="map"> 
+                    <p class="tile-title"><span class="spanLink">&lsaquo; </span>Map Data Across the Globe<span class="spanLink"> /&rsaquo;</span></p>                        
+                </div>
+            </a>
+
+            <a href="#">
+                <div class=project-tile>
+                    <img src="./wiki.png" alt="wiki"> 
+                    <p class="tile-title"><span class="spanLink">&lsaquo; </span>Wikipedia Viewer<span class="spanLink"> /&rsaquo;</span></p>                        
+                </div>
+            </a>
+
+            <a href="#">
+                <div class=project-tile>
+                    <img src="./tic-tac-toe.png" alt="tic tac toe"> 
+                    <p class="tile-title"><span class="spanLink">&lsaquo; </span>Tic Tac Toe Game<span class="spanLink"> /&rsaquo;</span></p>                        
+                </div>
+            </a>
+        </div>
+
+        <form action="https://www.google.com" class="btn-show" target="_blank">
+            <input type="submit" value="Show all &rsaquo;">
+        </form>
+
+        <div class="title-links" id="title-links">
+            <p class="tl-title">Let's work together...</p>
+            <p class="tl-text">How do you take your coffee?</p>
+            <div class="t-links">
+                <a href="#">Facebook</a>
+                <a id="profile-link" href="https://github.com/Khabub/" target="_blank">GitHub</a>
+                <a href="#">Twitter</a>
+                <a href="#">Send a mail</a>
+                <a href="#">Call me</a>    
+            </div>
+        </div>
+
+        <hr class="hr-down">
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; Created for freeCodeCamp</p>
+            </div>
+        </footer>
+    </section> 
+
+    <script src="./script.js"></script>
+</body>
+</html>
